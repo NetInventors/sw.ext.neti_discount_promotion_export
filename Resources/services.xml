@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+
+<container xmlns="http://symfony.com/schema/dic/services"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
+
+    <services>
+        <!-- Synthetics -->
+        <service id="modules" class="Shopware_Components_Modules" synthetic="true"/>
+        <service id="system" class="sSystem" synthetic="true"/>
+
+        <service id="neti_discount_promotion_export.subscriber.export" class="NetiDiscountPromotionExport\Subscriber\Export">
+            <argument id="neti_discount_promotion_export.service.export" type="service"/>
+            <tag name="shopware.event_subscriber"/>
+        </service>
+
+        <service id="neti_discount_promotion_export.service.export"
+                 class="NetiDiscountPromotionExport\Service\Export">
+            <argument id="modules" type="service"/>
+            <argument id="shopware_storefront.context_service" type="service"/>
+            <argument id="db" type="service"/>
+            <argument id="shopware_storefront.additional_text_service" type="service"/>
+            <argument id="shopware_storefront.configurator_service" type="service"/>
+            <argument id="shopware_storefront.product_service" type="service"/>
+        </service>
+    </services>
+</container>
