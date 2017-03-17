@@ -22,6 +22,5 @@
 
     <requiredPlugins>
         <requiredPlugin pluginName="NetiDiscountPromotion" minVersion="4.0.7"/>
-        <requiredPlugin pluginName="NetiFoundation" minVersion="2.1.2"/>
     </requiredPlugins>
 </plugin>
