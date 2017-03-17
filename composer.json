@@ -1,0 +1,9 @@
+{
+  "name": "netinventors/sw.ext.neti_discount_promotion_export",
+  "description": "",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "require": {
+    "shopware/shopware": "5.2.*"
+  }
+}
