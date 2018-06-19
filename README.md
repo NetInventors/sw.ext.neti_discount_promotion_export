@@ -1,3 +1,6 @@
+**NOTE**: If you are viewing this on GitHub, please be advised that the repo has been moved to [GitLab](https://gitlab.netinventors.de/shopware/labs/NetiDiscountPromotionExport) and we will no longer respond to Pull Requests on this repo, as it is only a mirror of the GitLab repository.
+
+
 # DiscountPromotionExport
 > This plugin provides the possibility to export the reduced prices in the product export. 
 > We use a replace hook as long the pull request https://github.com/shopware/shopware/pull/1049 isnt merged.
@@ -5,11 +8,6 @@
 * PluginKey: DiscountPromotionExport
 * ProjectId: [000000-012-496](https://redmine.netinventors.de/projects/000000-012-496/)
 * [Plugin in shopware store](http://store.shopware.com/detail/index/sArticle/161495)
-
-## GitHub
-* [GitHub Repository](https://github.com/NetInventors/sw.ext.neti_discount_promotion_export/) 
-* [ChangeLog](https://github.com/NetInventors/sw.ext.neti_discount_promotion_export/commits)
-* [Issues](https://github.com/NetInventors/sw.ext.neti_discount_promotion_export/issues)
 
 ## Requirements:
 * Shopware version >= 5.2.6
@@ -24,9 +22,6 @@
 ## Configuration:
 * Install
 * Configure
-
-## How to report bugs / request features?
-* [GitHub issue tracker](https://github.com/NetInventors/sw.ext.neti_discount_promotion_export/issues)
 
 ## Get involved 
 We highly appreciate if you want to add further functions and fix issues. Just fork our plugin and create a pull request.
